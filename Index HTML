@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loger – Infrastructure Layer for SMB Logistics</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <h2>Loger</h2>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1 class="hero-tagline">The Infrastructure Layer for SMB Logistics</h1>
+    <a href="https://wa.me/919567802898" class="cta-button">Book a Demo</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Loger</h2>
+  <p>We're revolutionizing last-mile delivery for small and medium businesses across India. Our technology-driven approach optimizes routes, reduces costs, and ensures reliable delivery services.</p>
+  <div class="startup-metrics">
+    <div class="cities-section">
+      <h3>🏙️ Our Presence</h3>
+      <div class="cities-grid">
+        <span class="city-pill">Kozhikode</span>
+        <span class="city-pill">Kochi</span>
+        <span class="city-pill">Thrissur</span>
+        <span class="city-pill">Kannur</span>
+      </div>
+    </div>
+    <div class="loi-section">
+      <h3>📋 Early Traction</h3>
+      <p><strong>7+ LOI Registered</strong></p>
+      <p>Letters of Intent from potential partners</p>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <h2>Why Choose Loger?</h2>
+  <div class="features-grid">
+    <div class="feature-item">
+      <h3>🚚 Route Optimization</h3>
+      <p>AI-powered routing reduces delivery time by up to 30%</p>
+    </div>
+    <div class="feature-item">
+      <h3>📱 Real-time Tracking</h3>
+      <p>Live updates for you and your customers</p>
+    </div>
+    <div class="feature-item">
+      <h3>💰 Cost Effective</h3>
+      <p>Transparent pricing with no hidden charges</p>
+    </div>
+    <div class="feature-item">
+      <h3>🔒 Secure Handling</h3>
+      <p>Insured deliveries with proof of delivery</p>
+    </div>
+  </div>
+</section>
+
+<section class="usps">
+  <div class="usps-container">
+    <h2>Our Core Technology Stack</h2>
+    <p class="usps-subtitle">Advanced logistics infrastructure built for the modern supply chain</p>
+    
+    <div class="usps-grid">
+      <div class="usp-card">
+        <div class="usp-icon">🧠</div>
+        <h3>Smart Routing Engine</h3>
+        <p>Advanced reverse logistics logic that optimizes delivery paths in real-time, reducing costs and improving efficiency across your entire supply chain network.</p>
+        <div class="usp-highlight">30% faster deliveries</div>
+      </div>
+      
+      <div class="usp-card">
+        <div class="usp-icon">🔄</div>
+        <h3>Push/Pull Delivery API</h3>
+        <p>Comprehensive orchestration API that seamlessly manages both push and pull delivery scenarios, giving you complete control over your logistics operations.</p>
+        <div class="usp-highlight">99.9% uptime</div>
+      </div>
+      
+      <div class="usp-card">
+        <div class="usp-icon">💳</div>
+        <h3>Wallet Billing System</h3>
+        <p>Integrated SLA-based pricing model with smart wallet functionality that ensures transparent, fair billing based on actual service level agreements.</p>
+        <div class="usp-highlight">Transparent pricing</div>
+      </div>
+      
+      <div class="usp-card">
+        <div class="usp-icon">📊</div>
+        <h3>Modular Dashboard & SDK</h3>
+        <p>Comprehensive platform for distributors and D2C enablers with customizable dashboards and robust SDK for seamless integration with existing systems.</p>
+        <div class="usp-highlight">Easy integration</div>
+      </div>
+    </div>
+    
+    <div class="usps-cta">
+      <p>Ready to transform your logistics operations?</p>
+      <a href="https://wa.me/919567802898" class="usps-button">Explore Our Technology</a>
+    </div>
+  </div>
+</section>
+
+<section class="industries">
+  <h2>B2B Logistics Solutions by Industry</h2>
+  <p class="industries-subtitle">Comprehensive logistics infrastructure for business operations</p>
+  <div class="industry-cards">
+    <div class="industry-card">
+      <div class="industry-icon">🍰</div>
+      <h3>Bakeries & Restaurants</h3>
+      <p><strong>B2B Solution:</strong> Complete logistics infrastructure for multi-location businesses. Manage inventory distribution between outlets, supplier deliveries, and bulk orders with temperature-controlled routing for fresh products.</p>
+      <div class="industry-highlight">Multi-outlet distribution</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">🔧</div>
+      <h3>Auto Spares Distributors</h3>
+      <p><strong>B2B Solution:</strong> Streamline your distribution network with real-time inventory tracking. Connect suppliers to retailers with optimized routes, emergency delivery protocols, and automated reorder systems.</p>
+      <div class="industry-highlight">Supply chain optimization</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">👓</div>
+      <h3>Optical Retail Chains</h3>
+      <p><strong>B2B Solution:</strong> Manage inter-store transfers, lab-to-store deliveries, and supplier relationships. Handle delicate optical equipment with specialized handling protocols and inventory synchronization.</p>
+      <div class="industry-highlight">Retail chain management</div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon">🔬</div>
+      <h3>Diagnostic Networks</h3>
+      <p><strong>B2B Solution:</strong> Coordinate sample logistics between collection centers and labs. Maintain chain of custody, temperature control, and time-sensitive processing with automated tracking and compliance reporting.</p>
+      <div class="industry-highlight">Compliance & tracking</div>
+    </div>
+  </div>
+</section>
+
+<section class="route-demo">
+  <h2>Route Optimization in Action</h2>
+  <p>Watch how our AI optimizes delivery routes in real-time</p>
+  <div class="demo-container">
+    <div class="route-canvas" id="routeCanvas">
+      <div class="warehouse" id="warehouse">📦 Warehouse</div>
+      <div class="delivery-point" id="point1" data-address="Restaurant A">🏪</div>
+      <div class="delivery-point" id="point2" data-address="Pharmacy B">💊</div>
+      <div class="delivery-point" id="point3" data-address="Store C">🛒</div>
+      <div class="delivery-point" id="point4" data-address="Office D">🏢</div>
+      <div class="delivery-vehicle" id="vehicle">🚚</div>
+      <svg class="route-lines" id="routeLines">
+        <g id="unoptimizedRoutes" class="unoptimized"></g>
+        <g id="optimizedRoutes" class="optimized"></g>
+      </svg>
+    </div>
+    <div class="demo-controls">
+      <button onclick="startRouteDemo()" id="demoBtn">Start Route Optimization</button>
+      <div class="demo-stats" id="demoStats">
+        <div class="stat">
+          <span class="label">Distance:</span>
+          <span id="distanceValue">--</span>
+        </div>
+        <div class="stat">
+          <span class="label">Time:</span>
+          <span id="timeValue">--</span>
+        </div>
+        <div class="stat">
+          <span class="label">Savings:</span>
+          <span id="savingsValue">--</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="calculator">
+  <div class="calculator-container">
+    <h2>Get Your Custom Pricing</h2>
+    <p class="calculator-subtitle">Enter your delivery requirements and get an instant quote</p>
+    
+    <div class="calculator-content">
+      <div class="calculator-form">
+        <div class="form-group">
+          <label for="distance">
+            <span class="label-icon">📍</span>
+            <span class="label-text">Average Distance (km)</span>
+          </label>
+          <input type="number" id="distance" value="10" min="1" max="100" />
+          <small>Distance from pickup to delivery point</small>
+        </div>
+
+        <div class="form-group">
+          <label for="weight">
+            <span class="label-icon">⚖️</span>
+            <span class="label-text">Package Weight (kg)</span>
+          </label>
+          <input type="number" id="weight" value="5" min="0.1" max="50" step="0.1" />
+          <small>Average weight per package</small>
+        </div>
+
+        <div class="form-group">
+          <label for="frequency">
+            <span class="label-icon">📅</span>
+            <span class="label-text">Deliveries per Week</span>
+          </label>
+          <input type="number" id="frequency" value="5" min="1" max="50" />
+          <small>How many deliveries do you need weekly?</small>
+        </div>
+
+        <div class="form-group">
+          <label for="sla">
+            <span class="label-icon">⚡</span>
+            <span class="label-text">Delivery Priority</span>
+          </label>
+          <select id="sla">
+            <option value="1">Standard (Same Day)</option>
+            <option value="2">Express (4-6 Hours)</option>
+            <option value="3">Urgent (1-2 Hours)</option>
+          </select>
+          <small>Choose your preferred delivery speed</small>
+        </div>
+
+        <button type="button" onclick="calculate()" class="calculate-btn">
+          <span>Calculate Pricing</span>
+          <span class="btn-icon">💰</span>
+        </button>
+      </div>
+
+      <div class="pricing-results" id="pricingResults" style="display: none;">
+        <h3>Your Custom Quote</h3>
+        
+        <div class="price-breakdown">
+          <div class="breakdown-item">
+            <span class="breakdown-label">Base Rate:</span>
+            <span class="breakdown-value" id="baseRate">₹95.00</span>
+          </div>
+          <div class="breakdown-item">
+            <span class="breakdown-label">Distance Charge:</span>
+            <span class="breakdown-value" id="distanceCharge">₹0.00</span>
+          </div>
+          <div class="breakdown-item">
+            <span class="breakdown-label">Weight Charge:</span>
+            <span class="breakdown-value" id="weightCharge">₹0.00</span>
+          </div>
+          <div class="breakdown-item">
+            <span class="breakdown-label">Priority Charge:</span>
+            <span class="breakdown-value" id="priorityCharge">₹0.00</span>
+          </div>
+          <div class="breakdown-total">
+            <span class="breakdown-label">Per Trip Cost:</span>
+            <span class="breakdown-value" id="perTripCost">₹118.75</span>
+          </div>
+        </div>
+
+        <div class="pricing-summary">
+          <div class="summary-card">
+            <h4>Weekly Cost</h4>
+            <div class="price-large" id="weeklyCost">₹593.75</div>
+            <small id="weeklyTrips">5 deliveries</small>
+          </div>
+          <div class="summary-card highlighted">
+            <h4>Monthly Subscription</h4>
+            <div class="price-large" id="monthlyCost">₹2,375.00</div>
+            <small>Save 15% with monthly plan</small>
+          </div>
+        </div>
+
+        <div class="cta-section">
+          <p>Ready to get started?</p>
+          <a href="https://wa.me/919567802898" class="quote-cta">Get Official Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mission-statement">
+  <div class="container">
+    <h2>Building the backbone of SMB Logistics from Tier 2 to every corner in India</h2>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 Loger Technologies Pvt. Ltd.</p>
+</footer>
+
+<script>
+  function calculate() {
+    const distance = parseFloat(document.getElementById("distance").value);
+    const weight = parseFloat(document.getElementById("weight").value);
+    const freq = parseFloat(document.getElementById("frequency").value);
+    const sla = parseFloat(document.getElementById("sla").value);
+
+    const baseRate = 95;
+    const distanceFactor = distance > 10 ? (distance - 10) * 5 : 0;
+    const weightFactor = weight > 10 ? (weight - 10) * 2 : 0;
+    const slaFactor = (sla - 1) * 15;
+
+    const perTripCost = baseRate + distanceFactor + weightFactor + slaFactor;
+    const customerRate = perTripCost * 1.25;
+    const weeklyCost = freq * customerRate;
+    const monthlyCost = weeklyCost * 4 * 0.85; // 15% discount for monthly
+
+    // Update breakdown
+    document.getElementById("baseRate").textContent = "₹" + baseRate.toFixed(2);
+    document.getElementById("distanceCharge").textContent = "₹" + distanceFactor.toFixed(2);
+    document.getElementById("weightCharge").textContent = "₹" + weightFactor.toFixed(2);
+    document.getElementById("priorityCharge").textContent = "₹" + slaFactor.toFixed(2);
+    document.getElementById("perTripCost").textContent = "₹" + customerRate.toFixed(2);
+    
+    // Update summary
+    document.getElementById("weeklyCost").textContent = "₹" + weeklyCost.toFixed(2);
+    document.getElementById("weeklyTrips").textContent = freq + " deliveries";
+    document.getElementById("monthlyCost").textContent = "₹" + monthlyCost.toFixed(2);
+    
+    // Show results
+    document.getElementById("pricingResults").style.display = "block";
+    
+    // Smooth scroll to results
+    document.getElementById("pricingResults").scrollIntoView({ 
+      behavior: 'smooth', 
+      block: 'nearest' 
+    });
+  }
+
+  // Route Optimization Demo Animation
+  let demoRunning = false;
+
+  function startRouteDemo() {
+    if (demoRunning) return;
+    
+    demoRunning = true;
+    const btn = document.getElementById('demoBtn');
+    btn.disabled = true;
+    btn.textContent = 'Optimizing...';
+    
+    // Reset everything
+    resetDemo();
+    
+    // Show unoptimized route first
+    setTimeout(() => showUnoptimizedRoute(), 500);
+    setTimeout(() => showOptimizedRoute(), 3000);
+    setTimeout(() => animateVehicle(), 4000);
+    setTimeout(() => resetDemo(), 12000);
+  }
+
+  function resetDemo() {
+    const vehicle = document.getElementById('vehicle');
+    const points = document.querySelectorAll('.delivery-point');
+    const lines = document.querySelectorAll('.route-lines line');
+    
+    vehicle.style.transform = 'translate(0, 0)';
+    points.forEach(point => point.classList.remove('visited'));
+    lines.forEach(line => line.classList.remove('active'));
+    
+    updateStats('--', '--', '--');
+    
+    if (demoRunning) {
+      setTimeout(() => {
+        const btn = document.getElementById('demoBtn');
+        btn.disabled = false;
+        btn.textContent = 'Start Route Optimization';
+        demoRunning = false;
+      }, 1000);
+    }
+  }
+
+  function showUnoptimizedRoute() {
+    createRouteLines();
+    updateStats('28.4 km', '45 mins', '--');
+    
+    // Show chaotic unoptimized routes
+    const unoptimized = document.querySelectorAll('#unoptimizedRoutes line');
+    unoptimized.forEach((line, index) => {
+      setTimeout(() => line.classList.add('active'), index * 200);
+    });
+  }
+
+  function showOptimizedRoute() {
+    // Hide unoptimized routes
+    document.querySelectorAll('#unoptimizedRoutes line').forEach(line => {
+      line.classList.remove('active');
+    });
+    
+    updateStats('18.7 km', '28 mins', '34% faster');
+    
+    // Show optimized route
+    const optimized = document.querySelectorAll('#optimizedRoutes line');
+    optimized.forEach((line, index) => {
+      setTimeout(() => line.classList.add('active'), index * 300);
+    });
+  }
+
+  function animateVehicle() {
+    const vehicle = document.getElementById('vehicle');
+    const points = [
+      { x: 300, y: 0 },    // point1
+      { x: 120, y: 80 },   // point4  
+      { x: 50, y: 200 },   // point3
+      { x: 200, y: 220 },  // point2
+      { x: 0, y: 0 }       // back to warehouse
+    ];
+    
+    points.forEach((point, index) => {
+      setTimeout(() => {
+        vehicle.style.transform = `translate(${point.x}px, ${point.y}px)`;
+        if (index < 4) {
+          const pointElement = document.getElementById(`point${index === 0 ? 1 : index === 1 ? 4 : index === 2 ? 3 : 2}`);
+          pointElement.classList.add('visited');
+        }
+      }, index * 1500);
+    });
+  }
+
+  function createRouteLines() {
+    const canvas = document.getElementById('routeCanvas');
+    const canvasRect = canvas.getBoundingClientRect();
+    
+    // Warehouse position (relative to canvas)
+    const warehouse = { x: 70, y: 200 };
+    
+    // Delivery points positions
+    const points = [
+      { x: 370, y: 100 },  // point1
+      { x: 320, y: 300 },  // point2  
+      { x: 170, y: 280 },  // point3
+      { x: 220, y: 140 }   // point4
+    ];
+
+    // Create unoptimized routes (inefficient path)
+    const unoptimizedSvg = document.getElementById('unoptimizedRoutes');
+    unoptimizedSvg.innerHTML = '';
+    
+    // Chaotic route: warehouse -> point1 -> point3 -> point2 -> point4 -> warehouse
+    const unoptimizedPath = [warehouse, points[0], points[2], points[1], points[3], warehouse];
+    for (let i = 0; i < unoptimizedPath.length - 1; i++) {
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', unoptimizedPath[i].x);
+      line.setAttribute('y1', unoptimizedPath[i].y);
+      line.setAttribute('x2', unoptimizedPath[i + 1].x);
+      line.setAttribute('y2', unoptimizedPath[i + 1].y);
+      unoptimizedSvg.appendChild(line);
+    }
+
+    // Create optimized routes (efficient path)
+    const optimizedSvg = document.getElementById('optimizedRoutes');
+    optimizedSvg.innerHTML = '';
+    
+    // Optimized route: warehouse -> point1 -> point4 -> point3 -> point2 -> warehouse
+    const optimizedPath = [warehouse, points[0], points[3], points[2], points[1], warehouse];
+    for (let i = 0; i < optimizedPath.length - 1; i++) {
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', optimizedPath[i].x);
+      line.setAttribute('y1', optimizedPath[i].y);
+      line.setAttribute('x2', optimizedPath[i + 1].x);
+      line.setAttribute('y2', optimizedPath[i + 1].y);
+      optimizedSvg.appendChild(line);
+    }
+  }
+
+  function updateStats(distance, time, savings) {
+    document.getElementById('distanceValue').textContent = distance;
+    document.getElementById('timeValue').textContent = time;
+    document.getElementById('savingsValue').textContent = savings;
+  }
+
+  // Initialize the demo
+  document.addEventListener('DOMContentLoaded', function() {
+    createRouteLines();
+  });
+</script>
+
+</body>
+</html>
