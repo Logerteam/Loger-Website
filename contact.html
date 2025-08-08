@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Loger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <h2>Loger</h2>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="content-container">
+    <h1>Contact Us</h1>
+    <p>Ready to transform your logistics? Let's talk about your requirements</p>
+  </div>
+</section>
+
+<section class="contact-content">
+  <div class="contact-container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>We're here to help you optimize your delivery operations. Reach out to us for a consultation, demo, or any questions about our services.</p>
+        
+        <div class="contact-methods">
+          <div class="contact-method">
+            <div class="method-icon">📧</div>
+            <div class="method-details">
+              <h3>Email</h3>
+              <p>team@logerit.com</p>
+              <small>Response within 24 hours</small>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">📱</div>
+            <div class="method-details">
+              <h3>WhatsApp</h3>
+              <p>+91 95678 02898</p>
+              <small>Instant response during business hours</small>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">📍</div>
+            <div class="method-details">
+              <h3>Office</h3>
+              <p>Bangalore, Karnataka, India</p>
+              <small>Visit by appointment</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="business-hours">
+          <h3>Business Hours</h3>
+          <div class="hours-list">
+            <div class="hour-item">
+              <span>Monday - Friday</span>
+              <span>9:00 AM - 7:00 PM</span>
+            </div>
+            <div class="hour-item">
+              <span>Saturday</span>
+              <span>10:00 AM - 4:00 PM</span>
+            </div>
+            <div class="hour-item">
+              <span>Sunday</span>
+              <span>Closed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+          </div>
+          
+          <div class="form-group">
+            <label for="service">Service Interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="route-optimization">Route Optimization</option>
+              <option value="api-integration">API Integration</option>
+              <option value="custom-solution">Custom Solution</option>
+              <option value="consultation">Consultation</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your logistics requirements..." required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quick-actions">
+  <div class="content-container">
+    <h2>Quick Actions</h2>
+    <div class="actions-grid">
+      <div class="action-card">
+        <h3>📞 Schedule a Call</h3>
+        <p>Book a 30-minute consultation with our logistics experts</p>
+        <a href="https://wa.me/your-whatsapp-link" class="action-btn">Book Now</a>
+      </div>
+      <div class="action-card">
+        <h3>📊 Request Demo</h3>
+        <p>See our platform in action with a personalized demo</p>
+        <a href="https://wa.me/your-whatsapp-link" class="action-btn">Get Demo</a>
+      </div>
+      <div class="action-card">
+        <h3>💰 Get Quote</h3>
+        <p>Receive a custom pricing quote for your business needs</p>
+        <a href="index.html#calculator" class="action-btn">Calculate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 Loger Technologies Pvt. Ltd.</p>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  // Get form data
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData);
+  
+  // Create WhatsApp message
+  const message = `Hi! I'm ${data.firstName} ${data.lastName} from ${data.company || 'my company'}. 
+
+Email: ${data.email}
+Phone: ${data.phone || 'Not provided'}
+Service Interest: ${data.service || 'General inquiry'}
+
+Message: ${data.message}`;
+  
+  // Open WhatsApp
+  const whatsappUrl = `https://wa.me/919567802898?text=${encodeURIComponent(message)}`;
+  window.open(whatsappUrl, '_blank');
+  
+  // Show success message
+  alert('Thank you! Your message has been prepared. You\'ll be redirected to WhatsApp to send it.');
+});
+</script>
+
+</body>
+</html>
